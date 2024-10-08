@@ -1,8 +1,8 @@
 <?php
 try{
-$serverName = "xx.database.windows.net";
+$serverName = "sql-server-eber-eval.database.windows.net";
 $database = "demodb";
-$uid = "xxxx";
+$uid = "sqladmin";
 $pwd = "xxxx";
 
 $conn = new PDO("sqlsrv:server = $serverName; Database = $databaseName;", $uid, $pwd);
